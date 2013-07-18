@@ -3,7 +3,10 @@
 	"description": "The Laravel Framework.",
 	"keywords": ["framework", "laravel"],
 	"require": {
-		"laravel/framework": "4.0.*"
+		"laravel/framework": "4.0.*",
+		"way/generators": "dev-master",
+		"vespakoen/menu": "dev-master",
+		"kilrizzy/bootforms": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
