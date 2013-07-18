@@ -1,9 +1,12 @@
 ## Simple Todo list
 
-App to help me stop procrastinating.
+App to help me stop procrastinating. Uses Laravel 4
 
-Setup database for "todo" and edit config file in /app/config/database.php
-Run composer install
+### Installation Instructions
+
+- Setup database and edit config file in /app/config/database.php
+- Edit app config in /app/config/app.php for site url
+- Run `composer install` and `composer update`
 
 
 
