@@ -10,6 +10,9 @@
 | application. Here you may also register your custom route filters.
 |
 */
+include('helpers/menuHelper.php');
+generateAdminMenus();
+
 
 App::before(function($request)
 {

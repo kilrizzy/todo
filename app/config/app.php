@@ -115,7 +115,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
 		'Kilrizzy\Bootforms\BootformsServiceProvider',
-
+		'Menu\MenuServiceProvider',
 	),
 
 	/*
@@ -180,7 +180,8 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-		'Bootform' => 'kilrizzy\Bootforms\BootformsFacade',
+		'Bootform' => 'Kilrizzy\Bootforms\BootformsFacade',
+		'Menu' => 'Menu\Menu',
 	),
 
 );
